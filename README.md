@@ -1,0 +1,1 @@
+Smart Email Assistant is an AI-powered tool that helps users reply to emails quickly by generating context-aware responses. It analyzes incoming emails, understands the conversation, and suggests professional replies that can be edited or sent with a click—saving time and boosting productivity.
