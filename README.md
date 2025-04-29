@@ -84,8 +84,8 @@ Go to the backend folder and run the Spring Boot server:
 
 #### 3. Run the Frontend (React)
 In a new terminal window, navigate to the frontend folder, install dependencies, and start the React development server:
-cd SmartEmailAssistantReact
 
+    cd SmartEmailAssistantReact
     npm install
     npm start
 
@@ -113,7 +113,8 @@ iv. The reply will appear inside Gmail, and you can edit or send it directly.
 
 
 
-#### 6. Add Your OpenAI API Key
-If using OpenAI for AI replies, you'll need to provide your OpenAI API key. Add it to your backend’s application.properties file like this:
+#### 6. Add Your Google Gemini API Key
+If using Google Gemini for AI replies, you'll need to provide your Gemini API key and its url. Add it to your backend’s application.properties file like this:
 
-    openai.api.key=your-openai-api-key
+    gemini.api.key = your-gemini-api-key
+    gemini.api.url = https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent
